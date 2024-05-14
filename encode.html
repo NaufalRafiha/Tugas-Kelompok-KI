@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encode</title>
+<link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Encode</h2>
+    <label for="imageInput">Select Image:</label>
+    <input type="file" id="imageInput">
+    <textarea id="textInput" placeholder="Enter text to hide..."></textarea>
+    <input type="password" id="passwordInput" placeholder="Enter password...">
+    <button onclick="hideText()">Encode</button>
+    <div id="output"></div>
+    <a href="decode.html">Decode</a>
+</div>
+<script src="encode.js"></script>
+</body>
+</html>
